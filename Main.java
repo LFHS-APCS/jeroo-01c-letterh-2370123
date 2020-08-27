@@ -20,7 +20,40 @@ public class Main implements Directions {
      * Put your main Jeroo code here.
      */
     public static void runJerooCode() {
-       // Write code here to make a letter here
+         Jeroo tom = new Jeroo(0,0,12);
+  tom.hop();
+  tom.turn(LEFT);
+  tom.turn(LEFT);
+  tom.turn(LEFT);
+  tom.hop();
+  tom.leaveFlower();
+  tom.leaveFlower();
+  tom.leaveFlower();
+  tom.leaveFlower();
+  tom.plant();
+  tom.turn(LEFT);
+  tom.turn(LEFT);
+  tom.hop();
+  tom.hop();
+  tom.turn(LEFT);
+  tom.turn(LEFT);
+  tom.turn(LEFT);
+  tom.hop();
+  tom.leaveFlower();
+  tom.leaveFlower();
+  tom.plant();
+  tom.turn(LEFT);
+  tom.hop();
+  tom.leaveFlower();
+  tom.plant();
+  tom.turn(LEFT);
+  tom.turn(LEFT);
+  tom.hop();
+  tom.hop();
+  tom.hop();
+  tom.leaveFlower();
+  tom.plant();
+  tom.hop();
        Jeroo kim = new Jeroo(0, 0, EAST, 100);
     
     

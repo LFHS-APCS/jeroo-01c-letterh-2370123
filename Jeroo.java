@@ -4,7 +4,17 @@
  */
 public class Jeroo extends JerooBase {
     // Put any methods here
-
+public void moveBackward(){
+  turn(LEFT);
+  turn(LEFT);
+  hop();
+  turn(LEFT);
+  turn(LEFT);
+}
+public void leaveFlower(){
+  plant();
+  hop();
+}
     
     // Do NOT touch the code below here
 
